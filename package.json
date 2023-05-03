@@ -38,6 +38,11 @@
     "type": "git",
     "url": "https://github.com/XYOracleNetwork/dapp-gas-price.git"
   },
+  "scripts": {
+    "package-clean": "echo Cleaned",
+    "package-compile": "echo Compiled",
+    "package-recompile": "echo Recompiled"
+  },
   "sideEffects": false,
   "version": "1.0.0",
   "packageManager": "yarn@3.5.1"

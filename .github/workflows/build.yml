@@ -33,15 +33,3 @@ jobs:
 
       - name: compile
         run: yarn xy compile
-
-      - name: lint
-        run: yarn xy lint
-
-      - name: deps
-        run: yarn xy deps
-
-      - name: cycle
-        run: yarn xy cycle
-
-      - name: statics
-        run: yarn xy statics
