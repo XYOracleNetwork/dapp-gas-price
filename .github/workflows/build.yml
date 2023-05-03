@@ -45,6 +45,3 @@ jobs:
 
       - name: statics
         run: yarn xy statics
-
-      - name: build-storybook
-        run: yarn build-storybook

@@ -23,7 +23,7 @@
 
 > Gas Price dApp
 
-## Use the sdk in another project
+## Run the dApp locally
 
 Using npm:
 
@@ -74,9 +74,9 @@ See the [LICENSE](LICENSE) file for license details
 [main-build-link]: https://github.com/XYOracleNetwork/dapp-gas-price/actions/workflows/build.yml
 [npm-badge]: https://img.shields.io/npm/v/@xyo-network/dapp-gas-price.svg
 [npm-link]: https://www.npmjs.com/package/@xyo-network/dapp-gas-price
-[codacy-badge]: https://app.codacy.com/project/badge/Grade/tbd
+[codacy-badge]: https://app.codacy.com/project/badge/Grade/b55d6399e7204aa2818f64f5c6cf25ae
 [codacy-link]: https://www.codacy.com/gh/XYOracleNetwork/dapp-gas-price/dashboard?utm_source=github.com&utm_medium=referral&utm_content=XYOracleNetwork/dapp-gas-price&utm_campaign=Badge_Grade
-[codeclimate-badge]: https://api.codeclimate.com/v1/badges/tbd/maintainability
+[codeclimate-badge]: https://api.codeclimate.com/v1/badges/0a3fe31e418a96126756/maintainability
 [codeclimate-link]: https://codeclimate.com/github/XYOracleNetwork/dapp-gas-price/maintainability
 [snyk-badge]: https://snyk.io/test/github/XYOracleNetwork/dapp-gas-price/badge.svg?targetFile=package.json
 [snyk-link]: https://snyk.io/test/github/XYOracleNetwork/dapp-gas-price?targetFile=package.json
