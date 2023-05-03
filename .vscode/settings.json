@@ -1,0 +1,77 @@
+{
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.tsconfig.*": true
+  },
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "files.autoSave": "onFocusChange",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "cSpell.words": [
+    "appbar",
+    "Arie",
+    "autocrlf",
+    "boundwitness",
+    "bowser",
+    "chromaui",
+    "cytoscape",
+    "darkmode",
+    "ellipsize",
+    "etherchain",
+    "ethersproject",
+    "ethgasstation",
+    "flexbox",
+    "Hasher",
+    "huri",
+    "instrumenter",
+    "mapbox",
+    "pako",
+    "payloadset",
+    "quadkey",
+    "rollbar",
+    "scure",
+    "secp",
+    "Trouw",
+    "typechain",
+    "wordlist",
+    "wordlists",
+    "xylabs",
+    "yarnpkg"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "author": {
+    "email": "support@xyo.network",
+    "name": "XYO Development Team",
+    "url": "https://xyo.network"
+  },
+  "bugs": {
+    "email": "support@xyo.network",
+    "url": "https://github.com/XYOracleNetwork/dapp-gas-price/issues"
+  },
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "description": "Gas Price dApp",
+  "devDependencies": {
+    "@xylabs/ts-scripts-yarn3": "^2.17.6"
+  },
+  "exports": {
+    ".": {
+      "default": "./dapp.json"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dapp.json",
+  "homepage": "https://xyo.network",
+  "keywords": [
+    "xyo",
+    "ethereum",
+    "gas",
+    "price"
+  ],
+  "license": "LGPL-3.0",
+  "name": "@xyo-network/dapp-gas-price",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XYOracleNetwork/dapp-gas-price.git"
+  },
+  "sideEffects": false,
+  "version": "1.0.0",
+  "packageManager": "yarn@3.5.1"
+}
