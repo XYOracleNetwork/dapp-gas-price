@@ -9,6 +9,7 @@
       "description": "Module Definition",
       "properties": {
         "name": {
+          "description": "The friendly name for this module",
           "type": "string"
         },
         "description": {
@@ -24,12 +25,14 @@
           "$ref": "#/definitions/language"
         },
         "config": {
+          "description": "The default config for the module",
           "type": "object"
         },
         "os": {
           "$ref": "#/definitions/os"
         },
         "id": {
+          "description": "The canonical id that tells the loader how to find the correct registered module implementation",
           "type": "string"
         }
       },
@@ -46,7 +49,7 @@
     },
     "dapp": {
       "additionalProperties": false,
-      "description": "dApp Definition",
+      "description": "dApp Definition - Generally loaded into an existing or new Node Module",
       "properties": {
         "name": {
           "type": "string"
@@ -170,9 +173,11 @@
       "type": "string"
     },
     "dapps": {
+      "description": "The list of dApps that are defined in the manifest",
       "$ref": "#/definitions/dapps"
     },
     "modules": {
+      "description": "The list of global modules that are defined in the manifest",
       "$ref": "#/definitions/modules"
     }
   },
