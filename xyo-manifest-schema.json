@@ -14,8 +14,11 @@
         "description": {
           "type": "string"
         },
-        "framework": {
-          "$ref": "#/definitions/framework"
+        "features": {
+          "items": {
+            "$ref": "#/definitions/feature"
+          },
+          "type": "array"
         },
         "language": {
           "$ref": "#/definitions/language"
@@ -26,9 +29,8 @@
         "os": {
           "$ref": "#/definitions/os"
         },
-        "uri": {
-          "type": "string",
-          "format": "uri"
+        "id": {
+          "type": "string"
         }
       },
       "required": [],
@@ -51,15 +53,6 @@
         },
         "description": {
           "type": "string"
-        },
-        "framework": {
-          "$ref": "#/definitions/framework"
-        },
-        "language": {
-          "$ref": "#/definitions/language"
-        },
-        "os": {
-          "$ref": "#/definitions/os"
         },
         "modules": {
           "additionalProperties": false,
@@ -107,7 +100,7 @@
       ],
       "type": "string"
     },
-    "framework": {
+    "feature": {
       "description": "Framework",
       "enum": [
         "angular",

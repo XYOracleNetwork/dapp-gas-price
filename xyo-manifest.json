@@ -8,7 +8,7 @@
           {
             "name": "ScratchArchivist",
             "language": "javascript",
-            "uri": "https://registry.npmjs.org/@xyo-network/memory-archivist/-/memory-archivist-2.56.0.tgz"
+            "id": "network.xyo.archivist"
           },
           {
             "name": "BlocknativeGasWitness"
@@ -30,7 +30,7 @@
           {
             "name": "GasPriceDiviner",
             "language": "javascript",
-            "uri": "https://registry.npmjs.org/@xyo-network/gas-price-plugin/-/gas-price-plugin-2.56.0.tgz",
+            "id": "network.xyo.blockchain.ethereum.gas.diviner",
             "config": {
               "$schema": "http://json-schema.org/draft-07/schema#",
               "archivist": "ScratchArchivist"
@@ -39,8 +39,10 @@
           {
             "name": "GasPriceRenderer",
             "language": "javascript",
-            "framework": "react",
-            "uri": "https://registry.npmjs.org/@xyo-network/react-ethereum-gas-price-plugin/-/react-ethereum-gas-price-plugin-2.49.2.tgz",
+            "features": [
+              "react"
+            ],
+            "id": "network.xyo.blockchain.ethereum.gas",
             "config": {
               "$schema": "http://json-schema.org/draft-07/schema#",
               "archivist": "ScratchArchivist"
@@ -54,27 +56,27 @@
     {
       "name": "BlocknativeGasWitness",
       "language": "javascript",
-      "uri": "https://registry.npmjs.org/@xyo-network/blocknative-ethereum-gas-plugin/-/blocknative-ethereum-gas-plugin-2.56.0.tgz"
+      "id": "network.xyo.blockchain.ethereum.gas.blocknative.witness"
     },
     {
       "name": "EtherchainGasWitness",
       "language": "javascript",
-      "uri": "https://registry.npmjs.org/@xyo-network/etherchain-ethereum-gas-v2-plugin/-/etherchain-ethereum-gas-v2-plugin-2.56.0.tgz"
+      "id": "network.xyo.blockchain.ethereum.gas.etherchain.witness"
     },
     {
       "name": "EthersGasWitness",
       "language": "javascript",
-      "uri": "https://registry.npmjs.org/@xyo-network/ethers-ethereum-gas-plugin/-/ethers-ethereum-gas-plugin-2.56.0.tgz"
+      "id": "network.xyo.blockchain.ethereum.gas.ethers.witness"
     },
     {
       "name": "EtherscanGasWitness",
       "language": "javascript",
-      "uri": "https://registry.npmjs.org/@xyo-network/etherscan-ethereum-gas-plugin/-/etherscan-ethereum-gas-plugin-2.56.0.tgz"
+      "id": "network.xyo.blockchain.ethereum.gas.etherscan.witness"
     },
     {
       "name": "EthGasStationGasWitness",
       "language": "javascript",
-      "uri": "https://registry.npmjs.org/@xyo-network/ethgasstation-ethereum-gas-plugin/-/ethgasstation-ethereum-gas-plugin-2.56.0.tgz"
+      "id": "network.xyo.blockchain.ethereum.gas.ethgasstation.witness"
     }
   ]
 }
