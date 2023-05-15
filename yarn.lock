@@ -31,7 +31,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.21.5":
+"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.21.8":
   version: 7.21.8
   resolution: "@babel/core@npm:7.21.8"
   dependencies:
@@ -2399,11 +2399,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xylabs/ts-scripts-yarn3@npm:^2.17.6":
-  version: 2.17.6
-  resolution: "@xylabs/ts-scripts-yarn3@npm:2.17.6"
+"@xylabs/ts-scripts-yarn3@npm:^2.17.13":
+  version: 2.17.13
+  resolution: "@xylabs/ts-scripts-yarn3@npm:2.17.13"
   dependencies:
-    "@babel/core": ^7.21.5
+    "@babel/core": ^7.21.8
     "@babel/preset-env": ^7.21.5
     "@types/node": ~18.16.3
     "@typescript-eslint/eslint-plugin": ^5.59.2
@@ -2435,8 +2435,9 @@ __metadata:
     ts-node: ^10.9.1
     ts-prune: ^0.10.3
     typedoc: ^0.23.28
-    typescript: ^5.0.4
     yargs: ^17.7.2
+  peerDependencies:
+    typescript: ^4 || ^5
   bin:
     build: dist/cjs/bin/build.js
     clean: dist/cjs/bin/clean.js
@@ -2489,7 +2490,7 @@ __metadata:
     xy: dist/cjs/bin/xy.js
     xy-ts: src/bin/xy-ts.ts
     yarn3only: dist/cjs/bin/yarn3only.js
-  checksum: ffdde98c2dd66ad5b4e052f65800b3d8ba8f77c28c700999dd3cdc0969b2916c22b658a1e3e408176fe851e52fe9378ec00de8203bf01e669a0941fb189c658f
+  checksum: 8b8985a9f8e46d79318feaeaffa9f4e87e11951e4330c40cfcf969d102bcb25423e8458924ee6507dc2d36051ff544df44bb07502b729f3de6f2e157a9ae6751
   languageName: node
   linkType: hard
 
@@ -2497,7 +2498,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@xyo-network/dapp-gas-price@workspace:."
   dependencies:
-    "@xylabs/ts-scripts-yarn3": ^2.17.6
+    "@xylabs/ts-scripts-yarn3": ^2.17.13
   languageName: unknown
   linkType: soft
 
@@ -9414,26 +9415,6 @@ __metadata:
   bin:
     typedoc: bin/typedoc
   checksum: 40eb4e207aac1b734e09400cf03f543642cc7b11000895198dd5a0d3166315759ccf4ac30a2915153597c5c186101c72bac2f1fc12b428184a9274d3a0e44c5e
-  languageName: node
-  linkType: hard
-
-"typescript@npm:^5.0.4":
-  version: 5.0.4
-  resolution: "typescript@npm:5.0.4"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 82b94da3f4604a8946da585f7d6c3025fff8410779e5bde2855ab130d05e4fd08938b9e593b6ebed165bda6ad9292b230984f10952cf82f0a0ca07bbeaa08172
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^5.0.4#~builtin<compat/typescript>":
-  version: 5.0.4
-  resolution: "typescript@patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: d26b6ba97b6d163c55dbdffd9bbb4c211667ebebc743accfeb2c8c0154aace7afd097b51165a72a5bad2cf65a4612259344ff60f8e642362aa1695c760d303ac
   languageName: node
   linkType: hard
 
